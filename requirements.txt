@@ -1,0 +1,25 @@
+# FastAPI Core
+fastapi==0.109.2
+uvicorn[standard]==0.27.1
+python-multipart==0.0.9
+
+# Database
+sqlalchemy==2.0.25
+pymysql==1.1.0
+cryptography==42.0.2
+
+# Security
+python-jose[cryptography]==3.3.0
+bcrypt==4.1.2
+python-dotenv==1.0.1
+
+# Validation
+pydantic==2.6.1
+pydantic-settings==2.1.0
+email-validator==2.1.0
+
+# Utilities
+python-dateutil==2.8.2
+
+# Optional - Stripe (si se usa)
+stripe==8.0.0
